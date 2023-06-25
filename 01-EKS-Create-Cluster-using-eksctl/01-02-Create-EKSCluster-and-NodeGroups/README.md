@@ -100,7 +100,7 @@ kubectl get nodes -o wide
 kubectl config view --minify
 
 # it will give you the information of addons flags(like: --asg-access , -- external-dns-access , --full-ecr-access , --appmesh-access, --alb-ingress-access, --install-neuron-plugin):
-eksctl create nodesgroup --help
+eksctl create nodegroup --help
 
 ```
 

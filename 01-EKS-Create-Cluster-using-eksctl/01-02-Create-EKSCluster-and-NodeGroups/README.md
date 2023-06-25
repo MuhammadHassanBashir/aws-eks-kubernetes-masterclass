@@ -98,6 +98,9 @@ kubectl get nodes -o wide
 
 # Our kubectl context should be automatically changed to new cluster
 kubectl config view --minify
+
+# it will give you the information of addons flags(like: --asg-access , -- external-dns-access , --full-ecr-access , --appmesh-access, --alb-ingress-access, --install-neuron-plugin):
+eksctl create nodesgroup --help
 ```
 
 ### Verify Worker Node IAM Role and list of Policies
